@@ -1,0 +1,371 @@
+* {
+  box-sizing: border-box; /* Crucial to avoid width + padding overflow */
+}
+
+html body {
+  font-family: "Quicksand", sans-serif;
+  background-color: #fcfcfc;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li.direccion-tienda {
+  font-weight: 700;
+}
+
+nav.header {
+  background-color: #c33c54;
+}
+
+#derechos {
+  font-size: 12px;
+  text-align: center;
+}
+
+footer {
+  background-color: #eefcfa;
+}
+
+h1 {
+  color: #fff;
+  background-color: rgba(88, 140, 147, 0.769);
+  margin: 0;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.titulo-servicio {
+  color: black;
+}
+
+h2 {
+  color: #c33c54;
+  margin: 0;
+  padding: 4px;
+}
+
+h3 {
+  color: #254e70ff;
+  margin: 0;
+}
+
+/* Container that holds all the header items */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* or "flex-start" if you don’t want spacing between */
+  padding: 15px;
+  background-color: #fff;
+}
+
+/* Applies padding or margin to each item */
+.header-items {
+  margin-right: 20px; /* space between items */
+}
+
+/* Optional: remove margin from the last item */
+.header-items:last-child {
+  margin-right: 0;
+}
+
+img.social-icons {
+  width: 25px;
+  height: 25px;
+}
+
+.main-video-container {
+  position: main;
+  width: 100%;
+}
+
+.main-video-container video {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.categorias-principales {
+  display: flex;
+  background-color: #f5f5f5;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.categoria {
+  flex: 1; /* Each image container gets equal space */
+  max-width: 100%; /* Prevent overflow on larger screens */
+}
+
+.categoria img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* crops nicely while filling space */
+  display: block;
+}
+
+form.form-newsletter {
+  background-color: rgba(88, 140, 147, 0.769);
+  margin: 1;
+}
+
+img.fotos-plp {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* crops nicely while filling space */
+  display: block;
+  flex: 1;
+}
+
+.categorias-mujer {
+  display: flex;
+  flex-wrap: wrap; /* Ensures items wrap on small screens (imagen se va a la siguiente fila en caso que no quepa*/
+  gap: 10px; /* Space between images */
+  background-color: #f5f5f5;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.plp-mujer {
+  flex: 1 1 calc(33.333% - 20px); /* 3 columns with gap considered */
+  box-sizing: border-box;
+}
+
+.plp-mujer img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  display: block;
+}
+
+.custom-navbar {
+  background-color: #eb7f92; /* Replace with your color */
+  max-width: 100%;
+}
+
+#imagen-logo {
+  height: 40px;
+}
+
+#icono-sesion {
+  height: 24px;
+}
+
+.nav-link.active {
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.main-title {
+  word-wrap: break-word;
+  background-color: rgba(88, 140, 147, 0.769);
+  overflow-wrap: break-word;
+  max-width: 100%;
+  margin-bottom: 0;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.form-newsletter {
+  width: 100%;
+  max-width: 100%;
+  background-color: #b0d0d0;
+  box-sizing: border-box;
+  padding: 30px 0;
+  overflow-x: hidden;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+.newsletter-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 16px;
+  gap: 20px; /* default gap for larger screens */
+}
+
+.column {
+  flex: 1;
+  min-width: 0; /* Important for flexbox shrinking */
+}
+
+.column-text h2,
+.column-text p {
+  margin: 0 0 10px 0;
+  word-wrap: break-word;
+}
+
+.form-group {
+  margin-bottom: 12px;
+}
+
+input[type="email"] {
+  width: 100%;
+  padding: 8px;
+  font-size: 1rem;
+}
+
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.column-button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 30px;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  font-size: 1rem;
+  width: 100%;
+  max-width: 150px;
+}
+
+.footer-container {
+  background-color: #eefcfa;
+  color: black;
+  padding: 2rem 0;
+  margin-top: auto;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.titulo-footer {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #eb7f92;
+}
+
+.lista-footer {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.items-footer {
+  margin-bottom: 0.5rem;
+}
+
+.items-footer a {
+  color: #b0d0d0;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.items-footer a:hover {
+  color: #000;
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-icons {
+  width: 32px;
+  height: 32px;
+  transition: opacity 0.3s ease;
+}
+
+.custom-image {
+  max-height: 400px;
+  object-fit: contain; /* optional: keeps aspect ratio */
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Quicksand", sans-serif;
+  background-color: #fcfcfc;
+}
+
+main {
+  flex: 1; /* This pushes the footer to the bottom */
+}
+
+footer {
+  margin-top: auto; /* Alternative to flex: 1 on main */
+}
+
+@media (max-width: 480px) {
+  .footer-container {
+    padding: 1.5rem 0;
+  }
+
+  .footer-content {
+    padding: 0 0.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .categorias-principales {
+    flex-direction: column;
+  }
+
+  .categoria {
+    width: 100%;
+  }
+
+  .newsletter-grid {
+    flex-direction: column;
+  }
+
+  .column-button {
+    padding-top: 0;
+  }
+
+  button[type="submit"] {
+    max-width: 100%;
+  }
+  .newsletter-grid {
+    flex-direction: column;
+    gap: 0px; /* smaller vertical spacing between stacked columns */
+  }
+
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
