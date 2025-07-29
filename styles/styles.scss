@@ -1,0 +1,30 @@
+/*compilar*/
+
+$primary-color: #eaf0f3;
+
+.card {
+  background-color: $primary-color;
+  .card-title {
+    color: #eb7f92;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+
+  .card-text {
+    color: #588c93c4;
+  }
+
+  .card-title-hombre {
+    color: #146969;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+}
+
+div {
+  h2 {
+    button {
+      font-weight: 500;
+    }
+  }
+}

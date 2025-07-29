@@ -1,0 +1,23 @@
+/*compilar*/
+.card {
+  background-color: #eaf0f3;
+}
+.card .card-title {
+  color: #eb7f92;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.card .card-text {
+  color: rgba(88, 140, 147, 0.768627451);
+}
+.card .card-title-hombre {
+  color: #146969;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+div h2 button {
+  font-weight: 500;
+}
+
+/*# sourceMappingURL=compiled.css.map */

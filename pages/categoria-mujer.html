@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,117 +15,171 @@
       integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
       crossorigin="anonymous"
     />
-
+    <link rel="stylesheet" href="../styles/compiled.css" />
+    <link rel="stylesheet" href="../styles/styles.css" />
     <title>Ropa Mujer</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg custom-navbar sticky-top">
-      <div
-        class="container-fluid d-flex align-items-center justify-content-between"
-      >
-        <a class="navbar-brand" href="./index.html">
-          <img id="imagen-logo" src="./imagenes/logo.png" alt="logo jaimy" />
-        </a>
-
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#mainNav"
-          aria-controls="mainNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+    <header>
+      <nav class="navbar navbar-expand-lg custom-navbar sticky-top">
+        <div
+          class="container-fluid d-flex align-items-center justify-content-between"
         >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+          <a class="navbar-brand" href="../index.html">
+            <img id="imagen-logo" src="../imagenes/logo.png" alt="logo jaimy" />
+          </a>
 
-        <div class="collapse navbar-collapse" id="mainNav">
-          <div
-            class="w-100 d-flex flex-column flex-lg-row align-items-center justify-content-lg-between"
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNav"
+            aria-controls="mainNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
           >
-            <div
-              class="navbar-nav flex-column flex-lg-row align-items-center mx-auto text-center"
-            >
-              <a class="nav-link active" href="./categoria-mujer.html">Ropa mujer</a>
-              <a class="nav-link" href="./servicio-cliente.html"
-                >Servicio al cliente</a
-              >
-              <a class="nav-link" href="./sucursales.html">Tu tienda</a>
-              <a class="nav-link" href="./mi-cuenta.html">Crear cuenta</a>
-            </div>
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
+          <div class="collapse navbar-collapse" id="mainNav">
             <div
-              class="d-flex justify-content-center justify-content-lg-end mt-3 mt-lg-0"
+              class="w-100 d-flex flex-column flex-lg-row align-items-center justify-content-lg-between"
             >
-              <a href="./mi-cuenta.html" class="nav-link">
-                <img id="icono-sesion" src="./imagenes/user.png" alt="login" />
-              </a>
+              <div
+                class="navbar-nav flex-column flex-lg-row align-items-center mx-auto text-center"
+              >
+                <a class="nav-link active" href="../pages/categoria-mujer.html"
+                  >Ropa mujer</a
+                >
+                <a class="nav-link" href="../pages/categoria-hombre.html"
+                  >Ropa hombre</a
+                >
+                <a class="nav-link" href="../pages/servicio-cliente.html"
+                  >Servicio al cliente</a
+                >
+                <a class="nav-link" href="../pages/sucursales.html"
+                  >Tu tienda</a
+                >
+                <a class="nav-link" href="../pages/mi-cuenta.html"
+                  >Crear cuenta</a
+                >
+              </div>
+
+              <div
+                class="d-flex justify-content-center justify-content-lg-end mt-3 mt-lg-0"
+              >
+                <a href="../pages/mi-cuenta.html" class="nav-link">
+                  <img
+                    id="icono-sesion"
+                    src="../imagenes/user.png"
+                    alt="login"
+                  />
+                </a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </header>
 
     <main>
-      <h1 class="titulo-principal">Looks para el invierno☃️</h1>
-
+      <h1 class="titulo-principal">Looks para cada día</h1>
 
       <div class="card-group">
-  <div class="card">
-    <img src="https://plus.unsplash.com/premium_photo-1671658222199-7061b54d29dd?q=80&w=986&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-  <div class="card">
-    <img src="https://plus.unsplash.com/premium_photo-1671658222199-7061b54d29dd?q=80&w=986&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-  <div class="card">
-    <img src="https://plus.unsplash.com/premium_photo-1671658222199-7061b54d29dd?q=80&w=986&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-    </div>
-    
-  </div>
-</div>
-       <div class="card-group">
-  <div class="card">
-    <img src="https://plus.unsplash.com/premium_photo-1671658222199-7061b54d29dd?q=80&w=986&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-  <div class="card">
-    <img src="https://plus.unsplash.com/premium_photo-1671658222199-7061b54d29dd?q=80&w=986&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-  <div class="card">
-    <img src="https://plus.unsplash.com/premium_photo-1671658222199-7061b54d29dd?q=80&w=986&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-    </div>
-    
-  </div>
-</div>
+        <div class="card">
+          <img
+            src="https://plus.unsplash.com/premium_photo-1664888532123-38c6b1ade362?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            class="card-img-top"
+            alt="vestido midi mujer"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Vestido midi</h5>
+            <h5 class="card-price">$50.000</h5>
+            <p class="card-text">
+              Vestido midi de lino, corte relajado, ideal para días soleados.
+              Suave y ligero, perfecto para un look fresco y femenino.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1703001523704-e6a9d32b3067?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            class="card-img-top"
+            alt="Vestido satén mujer"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Vestido satén</h5>
+            <h5 class="card-price">$45.990</h5>
+            <p class="card-text">
+              Vestido ajustado de satén, escote en V y abertura lateral.
+              Elegancia para ocasiones especiales o salidas nocturnas.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1564430362299-113976f94001?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            class="card-img-top"
+            alt="Polera mujer"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Polera mujer</h5>
+            <h5 class="card-price">$25.990</h5>
+            <p class="card-text">
+              Polera de algodón orgánico, cuello redondo y diseño minimalista.
+              Versátil y cómoda, ideal para combinar con jeans o faldas.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="card-group">
+        <div class="card">
+          <img
+            src="https://plus.unsplash.com/premium_photo-1689575249400-fca1a67732b5?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            class="card-img-top"
+            alt="Polera mujer"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Camiseta mujer</h5>
+            <h5 class="card-price">$25.990</h5>
+            <p class="card-text">
+              Camiseta oversize de manga corta. Estilo urbano y relajado para
+              outfits casuales con personalidad.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://plus.unsplash.com/premium_photo-1675034810195-00d56274c560?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            class="card-img-top"
+            alt="Camiseta mujer"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Pantalón lino mujer</h5>
+            <h5 class="card-price">$15.000</h5>
+            <p class="card-text">
+              Pantalón palazzo de lino, cintura alta y caída fluida. Aporta
+              elegancia y comodidad para looks de oficina o casuales.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1652953338313-3b22738e9558?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            class="card-img-top"
+            alt="Pantalón lino mujer"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Jeans mujer</h5>
+            <h5 class="card-price">$30.000</h5>
+            <p class="card-text">
+              Jeans rectos de tiro medio, lavado clásico y tejido resistente.
+              Prenda atemporal que combina con cualquier estilo y ocasión.
+            </p>
+          </div>
+        </div>
+      </div>
 
-      </section>
       <section class="form-newsletter">
         <form action="/submit" method="post">
           <div class="newsletter-grid">
@@ -164,10 +217,10 @@
           <nav aria-label="Enlaces de ayuda">
             <ul class="lista-footer">
               <li class="items-footer">
-                <a href="./mi-cuenta.html">Mi cuenta</a>
+                <a href="../pages/mi-cuenta.html">Mi cuenta</a>
               </li>
               <li class="items-footer">
-                <a href="./servicio-cliente.html">Servicio al cliente</a>
+                <a href="../pages/servicio-cliente.html">Servicio al cliente</a>
               </li>
             </ul>
           </nav>
@@ -178,7 +231,7 @@
           <nav aria-label="Enlaces de sucursales">
             <ul class="lista-footer">
               <li class="items-footer">
-                <a href="./sucursales.html">Encuentra tu sucursal</a>
+                <a href="../pages/sucursales.html">Encuentra tu sucursal</a>
               </li>
             </ul>
           </nav>
@@ -190,14 +243,14 @@
             <a href="https://www.instagram.com" target="_blank">
               <img
                 class="social-icons"
-                src="./imagenes/instagram-icon.png"
+                src="../imagenes/instagram-icon.png"
                 alt="Síguenos en Instagram"
               />
             </a>
             <a href="https://www.facebook.com" target="_blank">
               <img
                 class="social-icons"
-                src="./imagenes/facebook-icon.png"
+                src="../imagenes/facebook-icon.png"
                 alt="Síguenos en Facebook"
               />
             </a>
@@ -218,3 +271,4 @@
       crossorigin="anonymous"
     ></script>
   </body>
+</html>
