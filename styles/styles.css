@@ -36,8 +36,20 @@ h1 {
   font-size: 1.5rem;
 }
 
+.titulo-tu-cuenta {
+  background-color: transparent;
+  color: #c33c54;
+  margin: 0;
+  padding: 4px;
+  font-size: 2rem;
+  text-align: left;
+}
+
 .titulo-servicio {
   color: black;
+  background-color: transparent;
+  font-size: 2rem;
+  color: #c33c54;
 }
 
 h2 {
